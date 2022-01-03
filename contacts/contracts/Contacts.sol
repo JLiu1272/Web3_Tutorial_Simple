@@ -12,7 +12,7 @@ contract Contacts {
     }
 
     constructor() {
-        createContact('Jennifer', '4135591042');
+        createContact('Daniel', '222222222');
     }
 
     mapping(uint => Contact) public contacts; 
