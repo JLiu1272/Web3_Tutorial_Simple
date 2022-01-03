@@ -1,0 +1,11 @@
+{
+  "ignore": [".gitignore", "node_modules/*"],
+  "commands": {
+    "Compile": "truffle compile",
+    "Migrate": "truffle migrate",
+    "Run dev server": "yarn test"
+  },
+  "hooks": {
+      "post_unpack": "yarn install"
+  }
+}
